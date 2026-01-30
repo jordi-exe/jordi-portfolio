@@ -1,0 +1,33 @@
+.tabs {
+  display: flex;
+  position: absolute;
+  left: -36px;
+  top: 140px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0;
+  margin: 0;
+}
+
+.tab {
+  height: 50px;
+  position: relative;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  fill: #878fc2;
+}
+
+.active {
+  z-index: 1;
+  fill: #ff7272;
+}
+
+.icons {
+  justify-content: center;
+  align-content: center;
+  filter: drop-shadow(-4px 2px 5px black);
+}

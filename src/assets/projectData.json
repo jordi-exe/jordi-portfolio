@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Dummy Project: The Project of All Time",
+    "summary": "Blihbitty blahbitty blooh",
+    "mainMedia": [
+      {
+        "type": "video",
+        "src": ".../public/media/videos/blah.mp4",
+        "keyDesc": "Main Showcase video"
+      }
+    ],
+
+    "section": "code",
+    "fullDesc": "Dummy description data here",
+    "completionDate": "6th September 2000",
+    "founder": "Coke",
+    "href": "https://www.blahbitty.com/",
+
+    "extraMedia": [
+      {
+        "type": "img",
+        "src": "media1.jpg",
+        "alt": "Media1 Description"
+      },
+      {
+        "type": "gif",
+        "src": "media2.gif",
+        "alt": "Media2 Description"
+      },
+      {
+        "type": "video",
+        "src": "media3.mp4",
+        "keyDesc": "Media3 Description"
+      }
+    ]
+  },
+  {
+    "name": "Dummy Code: The Project of All Time",
+    "summary": "Blihbitty blahbitty blooh",
+    "mainMedia": [
+      {
+        "type": "video",
+        "src": ".../public/media/videos/blah.mp4",
+        "keyDesc": "Main Showcase video"
+      }
+    ],
+
+    "section": "code",
+    "fullDesc": "Dummy description data here",
+    "completionDate": "6th September 2000",
+    "founder": "Coke",
+    "href": "https://www.blahbitty.com/",
+
+    "extraMedia": [
+      {
+        "type": "img",
+        "src": "media1.jpg",
+        "alt": "Media1 Description"
+      },
+      {
+        "type": "gif",
+        "src": "media2.gif",
+        "alt": "Media2 Description"
+      },
+      {
+        "type": "video",
+        "src": "media3.mp4",
+        "keyDesc": "Media3 Description"
+      }
+    ]
+  },
+  {
+    "name": "Dummy Model: The Project of All Time",
+    "summary": "Blihbitty blahbitty blooh",
+    "mainMedia": [
+      {
+        "type": "video",
+        "src": ".../public/media/videos/blah.mp4",
+        "keyDesc": "Main Showcase video"
+      }
+    ],
+
+    "section": "model",
+    "fullDesc": "Dummy description data here",
+    "completionDate": "6th September 2000",
+    "founder": "Coke",
+    "href": "https://www.blahbitty.com/",
+
+    "extraMedia": [
+      {
+        "type": "img",
+        "src": "media1.jpg",
+        "alt": "Media1 Description"
+      },
+      {
+        "type": "gif",
+        "src": "media2.gif",
+        "alt": "Media2 Description"
+      },
+      {
+        "type": "video",
+        "src": "media3.mp4",
+        "keyDesc": "Media3 Description"
+      }
+    ]
+  },
+  {
+    "name": "Dummy Model: The Project of All Time",
+    "summary": "Blihbitty blahbitty blooh",
+    "mainMedia": [
+      {
+        "type": "video",
+        "src": ".../public/media/videos/blah.mp4",
+        "keyDesc": "Main Showcase video"
+      }
+    ],
+
+    "section": "model",
+    "fullDesc": "Dummy description data here",
+    "completionDate": "6th September 2000",
+    "founder": "Coke",
+    "href": "https://www.blahbitty.com/",
+
+    "extraMedia": [
+      {
+        "type": "img",
+        "src": "media1.jpg",
+        "alt": "Media1 Description"
+      },
+      {
+        "type": "gif",
+        "src": "media2.gif",
+        "alt": "Media2 Description"
+      },
+      {
+        "type": "video",
+        "src": "media3.mp4",
+        "keyDesc": "Media3 Description"
+      }
+    ]
+  },
+  {
+    "name": "Dummy Game: The Project of All Time",
+    "summary": "Blihbitty blahbitty blooh",
+    "mainMedia": [
+      {
+        "type": "video",
+        "src": ".../public/media/videos/blah.mp4",
+        "keyDesc": "Main Showcase video"
+      }
+    ],
+
+    "section": "game",
+    "fullDesc": "Dummy description data here",
+    "completionDate": "6th September 2000",
+    "founder": "Coke",
+    "href": "https://www.blahbitty.com/",
+
+    "extraMedia": [
+      {
+        "type": "img",
+        "src": "media1.jpg",
+        "alt": "Media1 Description"
+      },
+      {
+        "type": "gif",
+        "src": "media2.gif",
+        "alt": "Media2 Description"
+      },
+      {
+        "type": "video",
+        "src": "media3.mp4",
+        "keyDesc": "Media3 Description"
+      }
+    ]
+  },
+  {
+    "name": "Dummy Game: The Project of All Time",
+    "summary": "Blihbitty blahbitty blooh",
+    "mainMedia": [
+      {
+        "type": "video",
+        "src": ".../public/media/videos/blah.mp4",
+        "keyDesc": "Main Showcase video"
+      }
+    ],
+
+    "section": "game",
+    "fullDesc": "Dummy description data here",
+    "completionDate": "6th September 2000",
+    "founder": "Coke",
+    "href": "https://www.blahbitty.com/",
+
+    "extraMedia": [
+      {
+        "type": "img",
+        "src": "media1.jpg",
+        "alt": "Media1 Description"
+      },
+      {
+        "type": "gif",
+        "src": "media2.gif",
+        "alt": "Media2 Description"
+      },
+      {
+        "type": "video",
+        "src": "media3.mp4",
+        "keyDesc": "Media3 Description"
+      }
+    ]
+  },
+  {
+    "name": "Dummy Design: The Project of All Time",
+    "summary": "Blihbitty blahbitty blooh",
+    "mainMedia": [
+      {
+        "type": "video",
+        "src": ".../public/media/videos/blah.mp4",
+        "keyDesc": "Main Showcase video"
+      }
+    ],
+
+    "section": "design",
+    "fullDesc": "Dummy description data here",
+    "completionDate": "6th September 2000",
+    "founder": "Coke",
+    "href": "https://www.blahbitty.com/",
+
+    "extraMedia": [
+      {
+        "type": "img",
+        "src": "media1.jpg",
+        "alt": "Media1 Description"
+      },
+      {
+        "type": "gif",
+        "src": "media2.gif",
+        "alt": "Media2 Description"
+      },
+      {
+        "type": "video",
+        "src": "media3.mp4",
+        "keyDesc": "Media3 Description"
+      }
+    ]
+  },
+  {
+    "name": "Dummy Design: The Project of All Time",
+    "summary": "Blihbitty blahbitty blooh",
+    "mainMedia": [
+      {
+        "type": "video",
+        "src": ".../public/media/videos/blah.mp4",
+        "keyDesc": "Main Showcase video"
+      }
+    ],
+
+    "section": "design",
+    "fullDesc": "Dummy description data here",
+    "completionDate": "6th September 2000",
+    "founder": "Coke",
+    "href": "https://www.blahbitty.com/",
+
+    "extraMedia": [
+      {
+        "type": "img",
+        "src": "media1.jpg",
+        "alt": "Media1 Description"
+      },
+      {
+        "type": "gif",
+        "src": "media2.gif",
+        "alt": "Media2 Description"
+      },
+      {
+        "type": "video",
+        "src": "media3.mp4",
+        "keyDesc": "Media3 Description"
+      }
+    ]
+  },
+  {
+    "name": "Dummy Contact: The Project of All Time",
+    "summary": "Blihbitty blahbitty blooh",
+    "mainMedia": [
+      {
+        "type": "video",
+        "src": ".../public/media/videos/blah.mp4",
+        "keyDesc": "Main Showcase video"
+      }
+    ],
+
+    "section": "contact",
+    "fullDesc": "Dummy description data here",
+    "completionDate": "6th September 2000",
+    "founder": "Coke",
+    "href": "https://www.blahbitty.com/",
+
+    "extraMedia": [
+      {
+        "type": "img",
+        "src": "media1.jpg",
+        "alt": "Media1 Description"
+      },
+      {
+        "type": "gif",
+        "src": "media2.gif",
+        "alt": "Media2 Description"
+      },
+      {
+        "type": "video",
+        "src": "media3.mp4",
+        "keyDesc": "Media3 Description"
+      }
+    ]
+  }
+]

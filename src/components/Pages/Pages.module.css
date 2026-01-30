@@ -1,0 +1,37 @@
+.page {
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.pageInner {
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f6d6b4;
+}
+
+.pageInner.left {
+  padding-left: 60px;
+  padding-right: 50px;
+  background: linear-gradient(
+    to right,
+    #feddc0 0%,
+    80%,
+    #dfb784 99%,
+    #feddc0 100%
+  );
+}
+
+.pageInner.right {
+  padding-left: 50px;
+  padding-right: 60px;
+  box-shadow: inset 10px 0 14px rgba(0, 0, 0, 0.18);
+  background: linear-gradient(
+    to left,
+    #feddc0 0%,
+    80%,
+    #dfb784 99%,
+    #feddc0 100%
+  );
+}

@@ -1,0 +1,20 @@
+{
+  "section": "about",
+  "name": "Jordi Surname",
+  "role": "Junior Frontend Developer",
+
+  "sections": [
+    {
+      "subtitle": "Test subtitle",
+      "summary": "Test summary"
+    },
+    {
+      "subtitle": "Test subtitle",
+      "summary": "Test summary"
+    },
+    {
+      "subtitle": "Test subtitle",
+      "summary": "Test summary"
+    }
+  ]
+}

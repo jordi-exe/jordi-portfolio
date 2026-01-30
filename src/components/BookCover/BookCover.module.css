@@ -1,0 +1,10 @@
+.bookCover {
+  display: flex;
+  position: absolute;
+  width: 1360px;
+  height: 900px;
+  justify-content: center;
+  background-color: #cf8d5a;
+  border-style: solid;
+  border-color: black;
+}
