@@ -1,4 +1,3 @@
-import React from "react";
 import { useContext } from "react";
 import { AboutContext } from "../../../context/dataContext";
 import styles from "../Pages.module.css";
