@@ -1,10 +1,4 @@
-export type Section =
-  | "about"
-  | "code"
-  | "model"
-  | "game"
-  | "design"
-  | "contact";
+import type { Section } from "./sections";
 
 export interface MediaData {
   type: "img" | "video" | "gif";
@@ -32,7 +26,7 @@ export type ProjectData<T> = T & {
 export type ProjectProps = ProjectData<ShowcaseData>;
 
 export interface AboutData {
-  section: "about";
+  section: "front";
   name: string;
   role: string;
 

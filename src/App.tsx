@@ -1,11 +1,18 @@
 import "./App.css";
 import BookCover from "./components/BookCover/BookCover";
+import aboutData from "./assets/aboutData.json";
+import projectData from "./assets/projectData.json";
+import { ProjectContext, AboutContext } from "./context/dataContext";
 
 function App() {
   return (
-    <div className="container">
-      <BookCover />
-    </div>
+    <ProjectContext.Provider value={projectData}>
+      <AboutContext.Provider value={aboutData}>
+        <div className="container">
+          <BookCover />
+        </div>
+      </AboutContext.Provider>
+    </ProjectContext.Provider>
   );
 }
 

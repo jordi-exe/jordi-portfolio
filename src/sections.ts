@@ -1,5 +1,5 @@
 export type Section =
-  | "about"
+  | "front"
   | "code"
   | "model"
   | "game"

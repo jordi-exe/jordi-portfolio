@@ -1,33 +1,42 @@
 import React from "react";
+import { useContext } from "react";
+import { AboutContext } from "../../../context/dataContext";
 import styles from "../Pages.module.css";
-import about from "../../../assets/aboutData.json";
 
-export const FrontPage1 = React.forwardRef<HTMLDivElement>(() => {
+type FrontPageProps = {
+  ref?: React.Ref<HTMLDivElement>;
+};
+
+export function FrontPage1({ ref }: FrontPageProps) {
+  const about = useContext(AboutContext);
   return (
-    <div className={styles.page}>
+    <div className={styles.page} ref={ref}>
       <div className={`${styles.pageInner} ${styles.left}`}>
-        <h2>{about.name}</h2>
-        {typeof about.sections[0].summary[0] === "string" ? (
-          <p>{about.sections[0].summary[0]}</p>
+        <h2>{about[0].name}</h2>
+        <h4>{about[0].role}</h4>
+        {typeof about[0].sections[0].summary[0] === "string" ? (
+          <p>{about[0].sections[0].summary[0]}</p>
         ) : (
-          about.sections[0].summary[0]
+          about[0].sections[0].summary[0]
         )}
       </div>
     </div>
   );
-});
+}
 
-export const FrontPage2 = React.forwardRef<HTMLDivElement>(() => {
+export function FrontPage2({ ref }: FrontPageProps) {
+  const about = useContext(AboutContext);
   return (
-    <div className={styles.page}>
+    <div className={styles.page} ref={ref}>
       <div className={`${styles.pageInner} ${styles.right}`}>
-        <h2>{about.name}</h2>
-        {typeof about.sections[0].summary[0] === "string" ? (
-          <p>{about.sections[0].summary[0]}</p>
+        <h2>{about[1].name}</h2>
+        <h4>{about[1].role}</h4>
+        {typeof about[1].sections[0].summary[0] === "string" ? (
+          <p>{about[1].sections[0].summary[0]}</p>
         ) : (
-          about.sections[0].summary[0]
+          about[1].sections[0].summary[0]
         )}
       </div>
     </div>
   );
-});
+}

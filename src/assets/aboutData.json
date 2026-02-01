@@ -1,20 +1,42 @@
-{
-  "section": "about",
-  "name": "Jordi Surname",
-  "role": "Junior Frontend Developer",
+[
+  {
+    "section": "front",
+    "name": "Jordi Surname",
+    "role": "Junior Frontend Developer",
 
-  "sections": [
-    {
-      "subtitle": "Test subtitle",
-      "summary": "Test summary"
-    },
-    {
-      "subtitle": "Test subtitle",
-      "summary": "Test summary"
-    },
-    {
-      "subtitle": "Test subtitle",
-      "summary": "Test summary"
-    }
-  ]
-}
+    "sections": [
+      {
+        "subtitle": "Test subtitle",
+        "summary": "Test summary"
+      },
+      {
+        "subtitle": "Test subtitle",
+        "summary": "Test summary"
+      },
+      {
+        "subtitle": "Test subtitle",
+        "summary": "Test summary"
+      }
+    ]
+  },
+  {
+    "section": "front",
+    "name": "Latest Project",
+    "role": "Mario & Luigi: Star Journey",
+
+    "sections": [
+      {
+        "subtitle": "Test subtitle",
+        "summary": "Test summary"
+      },
+      {
+        "subtitle": "Test subtitle",
+        "summary": "Test summary"
+      },
+      {
+        "subtitle": "Test subtitle",
+        "summary": "Test summary"
+      }
+    ]
+  }
+]

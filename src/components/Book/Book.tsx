@@ -1,36 +1,26 @@
+import styles from "./Book.module.css";
+import { useContext, useRef, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
 import Page from "../Pages/Pages";
 import Tabs from "../Tabs/Tabs";
-import { useRef, useState } from "react";
-
-import rawPages from "../../assets/projectData.json";
-import type { ProjectProps } from "../../projectData.types";
 import { FrontPage1, FrontPage2 } from "../Pages/FrontPages/FrontPages";
+import { ProjectContext } from "../../context/dataContext";
+import { getSectionStartPages } from "./Book.utils";
+import { buildBookPages } from "./BookPage";
 
+import type { ProjectProps } from "../../projectData.types";
 import type { Section } from "../../sections";
-import styles from "./Book.module.css";
-
-const allProjectPages = rawPages as ProjectProps[];
-
-function getSectionStartPages(pages: ProjectProps[]): Map<Section, number> {
-  const map = new Map<Section, number>();
-
-  pages.forEach((page, index) => {
-    if (!map.has(page.section)) {
-      map.set(page.section, index);
-    }
-  });
-
-  return map;
-}
 
 function Book() {
   const bookRef = useRef<any>(null);
-  const allPages = allProjectPages;
-  const sectionStartPages = getSectionStartPages(allPages);
+  const allPages = useContext(ProjectContext) as ProjectProps[];
+
+  const bookPages = buildBookPages(allPages);
+
+  const sectionStartPages = getSectionStartPages(bookPages);
 
   const [activeSection, setActiveSection] = useState<Section>(
-    allPages[0].section,
+    bookPages[0].section,
   );
 
   const flipTo = (pageIndex: number, section: Section) => {
@@ -40,7 +30,6 @@ function Book() {
 
   const onFlip = (e: { data: number }) => {
     const pageIndex = e.data;
-
     const section = [...sectionStartPages.entries()]
       .reverse()
       .find(([, startPage]) => pageIndex >= startPage)?.[0];
@@ -69,17 +58,24 @@ function Book() {
           className={styles.test}
           {...({} as any)}
         >
-          <FrontPage1 />
-          <FrontPage2 />
+          {bookPages.map((page, idx) => {
+            if (page.kind === "front") {
+              return idx === 0 ? (
+                <FrontPage1 key={idx} />
+              ) : (
+                <FrontPage2 key={idx} />
+              );
+            }
 
-          {allPages.map((p, idx) => (
-            <Page
-              key={idx}
-              title={p.name}
-              content={p.summary}
-              side={idx % 2 === 0 ? "left" : "right"}
-            />
-          ))}
+            return (
+              <Page
+                key={idx}
+                title={page.project.name}
+                content={page.project.summary}
+                side={idx % 2 === 0 ? "left" : "right"}
+              />
+            );
+          })}
         </HTMLFlipBook>
       </div>
     </div>

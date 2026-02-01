@@ -1,5 +1,5 @@
 import type { Section } from "../../sections";
-import About from "./tab_about.svg?react";
+import Front from "./tab_about.svg?react";
 import Code from "./tab_code.svg?react";
 import Models from "./tab_models.svg?react";
 import Game from "./tab_games.svg?react";
@@ -14,7 +14,7 @@ interface TabsProps {
 }
 
 const sectionIcons: Record<Section, React.FC<React.SVGProps<SVGSVGElement>>> = {
-  about: About,
+  front: Front,
   code: Code,
   model: Models,
   game: Game,
