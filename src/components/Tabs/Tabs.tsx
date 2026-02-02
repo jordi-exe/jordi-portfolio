@@ -1,4 +1,4 @@
-import type { Section } from "../../sections";
+import type { Section } from "../../lib/types";
 import Front from "./tab_about.svg?react";
 import Code from "./tab_code.svg?react";
 import Models from "./tab_models.svg?react";

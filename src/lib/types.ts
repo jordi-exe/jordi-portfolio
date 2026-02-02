@@ -1,4 +1,18 @@
-import type { Section } from "./sections";
+export type Section =
+  | "front"
+  | "code"
+  | "model"
+  | "game"
+  | "design"
+  | "contact";
+
+
+export interface PageData {
+  section: Section;
+  title: string;
+  subtitle?: string;
+  content: React.ReactNode;
+}
 
 export interface MediaData {
   type: "img" | "video" | "gif";

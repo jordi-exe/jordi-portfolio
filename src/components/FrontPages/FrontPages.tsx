@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AboutContext } from "../../../context/dataContext";
+import { AboutContext } from "../../lib/context/dataContext";
 import styles from "../Pages.module.css";
 
 type FrontPageProps = {
