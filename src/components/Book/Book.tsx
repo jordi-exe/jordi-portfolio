@@ -1,15 +1,37 @@
 import styles from "./Book.module.css";
 import { useContext, useRef, useState } from "react";
 import HTMLFlipBook from "react-pageflip";
+
 import Page from "../Pages/Pages";
 import Tabs from "../Tabs/Tabs";
-import { FrontPage1, FrontPage2 } from "../Pages/FrontPages/FrontPages";
-import { ProjectContext } from "../../context/dataContext";
-import { getSectionStartPages } from "./Book.utils";
-import { buildBookPages } from "./BookPage";
+import { FrontPage1, FrontPage2 } from "../FrontPages/FrontPages";
+import { ProjectContext } from "../../lib/context/dataContext";
+import type { ProjectProps, Section } from "../../lib/types";
 
-import type { ProjectProps } from "../../projectData.types";
-import type { Section } from "../../sections";
+function buildBookPages(projects: ProjectProps[]): BookPage[] {
+  return [
+    { kind: "front", section: "front" },
+    { kind: "front", section: "front" },
+
+    ...projects.map((p) => ({
+      kind: "project" as const,
+      section: p.section,
+      project: p,
+    })),
+  ];
+}
+
+function getSectionStartPages(pages: BookPage[]): Map<Section, number> {
+  const map = new Map<Section, number>();
+
+  pages.forEach((page, index) => {
+    if (!map.has(page.section)) {
+      map.set(page.section, index);
+    }
+  });
+
+  return map;
+}
 
 function Book() {
   const bookRef = useRef<any>(null);
@@ -83,3 +105,15 @@ function Book() {
 }
 
 export default Book;
+
+
+export type BookPage =
+  | {
+      kind: "front";
+      section: Section;
+    }
+  | {
+      kind: "project";
+      section: Section;
+      project: ProjectProps;
+    };

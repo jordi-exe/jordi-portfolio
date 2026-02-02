@@ -2,7 +2,7 @@ import "./App.css";
 import BookCover from "./components/BookCover/BookCover";
 import aboutData from "./assets/aboutData.json";
 import projectData from "./assets/projectData.json";
-import { ProjectContext, AboutContext } from "./context/dataContext";
+import { ProjectContext, AboutContext } from "./lib/context/dataContext";
 
 function App() {
   return (
