@@ -11,9 +11,11 @@ html {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-image: url("assets/images/TableBG.svg");
 }
 
+html {
+  background-image: url("assets/images/TableBG.svg");
+}
 #root {
   display: flex;
   width: 100%;

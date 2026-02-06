@@ -6,15 +6,53 @@
 
     "sections": [
       {
-        "subtitle": "Test subtitle",
-        "summary": "Test summary"
+        "subtitle": "Who am I?",
+        "summary": "A proactive, creative and ambitious Junior Front End Developer who is fully committed to take on new opportunities to gain new skills within the development world. Capable of working in high pressure environments while maintaining an organized work schedule. Capable of programming in C#, HTML/CSS/JS. (Temporary, gonna expand on this) "
       },
       {
-        "subtitle": "Test subtitle",
-        "summary": "Test summary"
+        "subtitle": "Skills",
+        "list": [
+          {
+            "label": "Code",
+            "points": "HTML5, CSS, Javascript, C#, C++, VueJS"
+          },
+          {
+            "label": "Libraries",
+            "points": "Bootstrap 5, jQuery, OnsenUI"
+          },
+          {
+            "label": "Game Engines",
+            "points": "Unity, Godot"
+          },
+          {
+            "label": "Design",
+            "points": "Adobe Suite Proficiency, Video Editing, Photo Editing, Application Design, Poster Design, 3D Modeling"
+          },
+          {
+            "label": "Spoken/Written Languages",
+            "points": "English, Spanish"
+          }
+        ]
       },
       {
-        "subtitle": "Test subtitle",
+        "subtitle": "Qualifications",
+        "list": [
+          {
+            "label": "Bachelor's",
+            "points": "Bachelor's of Arts in Interactive Design"
+          },
+          {
+            "label": "Redacted Work",
+            "points": "Freelance Junior Front End Developer - Redacted (Jan '25 - Mar '25)"
+          },
+          {
+            "label": "Chet Work",
+            "points": "Graphic Designer Intern - Instituto de la Cultura y las Artes de Quintana Roo  (Aug '22 - Feb '23)"
+          }
+        ]
+      },
+      {
+        "subtitle": "Personal Group Projects (?)",
         "summary": "Test summary"
       }
     ]

@@ -6,7 +6,6 @@ export type Section =
   | "design"
   | "contact";
 
-
 export interface PageData {
   section: Section;
   title: string;
@@ -46,6 +45,11 @@ export interface AboutData {
 
   sections: {
     subtitle: string;
-    summary: string;
+    summary?: string;
+
+    list?: {
+      label?: string;
+      points?: string;
+    }[];
   }[];
 }

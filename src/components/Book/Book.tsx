@@ -78,6 +78,7 @@ function Book() {
           maxShadowOpacity={0.5}
           autoSize={true}
           className={styles.test}
+          disableFlipByClick={true}
           {...({} as any)}
         >
           {bookPages.map((page, idx) => {
@@ -105,7 +106,6 @@ function Book() {
 }
 
 export default Book;
-
 
 export type BookPage =
   | {
